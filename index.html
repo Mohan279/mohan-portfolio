@@ -253,28 +253,29 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <form name="contact" method="POST" data-netlify="true">
-                        <p>
-                          <label for="exampleInputName" class="form-label">Name</label>
-                          <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp"/>
-                        </p>
-                        <p>
+                    <form name="contact" data-netlify="true">
+                        <div class="mb-3">
+                            <label for="exampleInputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleInputName"
+                                aria-describedby="nameHelp">
+                        </div>
+                        <div class="mb-3">
                             <label for="exampleInputMobile" class="form-label">Mobile</label>
-                            <input type="number" class="form-control" id="exampleInputMobile" aria-describedby="mobileHelp"/>
-                          </p>
-                        <p>
-                          <label for="exampleInputName" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail"/>
-                        </p>      
-                        <p>
-                          <label for="exampleFormCOntrolTextarea1" class="form-label">Subject</label>
-                          <textarea class="form-control" id="exampleFormCOntrolTextarea1" rows="3"></textarea>
-                        </p>
-                        <p>
-                          <button type="submit" class="btn btn-primary">Submit</button>
-                        </p>
-                      </form>
-                          
+                            <input type="number" class="form-control" id="exampleInputMobile"
+                                aria-describedby="mobileHelp">
+                        </div>
+                        <div>
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
                 <div class="col-md-6 text-center touch-padding">
                     <h5 class="pd-3 fw-bold">Get in Touch</h5>
